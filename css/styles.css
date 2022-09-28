@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section{
+    margin:0 auto;
+    width:70%;
+}
+.countdowncontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.countdown{
+    text-align:center;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    margin:1em;
+}
+.time{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 400px){
+    h2{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    margin:1em;
+}
+.countdown{
+width:50%;
+}
+
+}
